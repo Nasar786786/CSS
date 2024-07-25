@@ -1,0 +1,34 @@
+/* descendant selector */
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+
+nav ul li a{
+     color:red;
+}
+
+p+h3{
+    text-decoration:underline;
+}
+
+.upvote+button{
+    background-color:blue;
+    color:red;
+}
+
+div>input{
+    background-color:darksalmon;
+}
+
+input[type="text"]{
+    color:black;
+}
+
+input[type="password"]{
+    color:blue;
+}
+
+input[type]{
+    background-color:white;
+}

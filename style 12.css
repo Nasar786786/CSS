@@ -1,0 +1,66 @@
+/* descendant selector */
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+
+nav ul li a{
+     color:red;
+}
+
+p+h3{
+    text-decoration:underline;
+}
+
+.upvote+button{
+    background-color:blue;
+    color:red;
+}
+
+div>input{
+    background-color:darksalmon;
+}
+
+input[type="text"]{
+    color:black;
+}
+
+input[type="password"]{
+    color:blue;
+}
+
+input[type]{
+    background-color:white;
+}
+
+#myId p{
+    color:blue;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}
+
+h3:hover{
+    text-decoration:overline;
+}
+
+button:active{
+    background-color:hotpink;
+    color:black;
+}
+
+p:active{
+    font-weight:bold;
+    color:green;
+}
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight:bold;
+}
+
+div:nth-of-type(1){
+    background-color:blanchedalmond;
+}
